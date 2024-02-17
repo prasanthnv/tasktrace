@@ -1,0 +1,17 @@
+{
+  "name": "@tasktrace/prisma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Prasanth Venugopal",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "prisma": "^5.9.1",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@prisma/client": "5.9.1",
+    "@types/node": "^20.11.19",
+    "typescript": "^5.3.3"
+  }
+}

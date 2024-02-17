@@ -1,0 +1,11 @@
+{
+  "name": "@tasktrace/ui",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Prasanth Venugopal",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@radix-ui/react-accordion": "^1.1.2"
+  }
+}

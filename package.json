@@ -1,0 +1,32 @@
+{
+  "name": "tasktrace",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Prasanth Venugopal",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "yarn workspace @tasktrace/web run dev",
+    "prisma": "yarn workspace @tasktrace/prisma run prisma",
+    "prisma:generate": "yarn workspace @tasktrace/prisma run prisma generate",
+    "prisma:studio": "yarn workspace @tasktrace/prisma run prisma studio"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.19",
+    "@types/node": "^20.11.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  }
+}
